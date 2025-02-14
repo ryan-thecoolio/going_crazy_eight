@@ -3,7 +3,7 @@ i went crazy coding, debugging, and playing this... (its crazy eight but scuffed
 
 Follow up to my war card game began coding at night 2/13/2025 finished at 3:30 pm next day; Used some AI. I did not know how to split the integer strings and the unicode and also to map suits when a user creates a new suit from playing eighth card.
 
-Other than the[ initial war game]([[War Card Game]]), this was the first time I used classes to hold functions. After briefly reviewing, it is obvious I am still using classes and functions wrong. Half the code is inside one function 💀
+Other than the initial war game, this was the first time I used classes to hold functions. After briefly reviewing, it is obvious I am still using classes and functions wrong. Half the code is inside one function 💀
 
 # Intuition:
 More like outline but, create three classes:
