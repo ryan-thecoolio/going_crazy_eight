@@ -24,6 +24,7 @@ class Decks():
         random.shuffle(self.deck)
 
     def deal(self):
+        self.shuffle()
         self.hands = []
         for i in range(2):
             self.hands.append([]) #Creates sublist for two players
@@ -134,8 +135,6 @@ class Play():
                 print(f"Player {i+1} | {self.hands[i]}")
 
 deck = Decks()
-deck.shuffle()
-
 
 hands = deck.deal()
 if hands:
